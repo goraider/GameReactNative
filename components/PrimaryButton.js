@@ -3,7 +3,7 @@
  PrimaryButton = ({children}) => {
   
   pressHandler = () => {
-    console.log('Pressed!');
+    console.log('Pressed to Button!');
   }
     return(
       <View style={styles.buttonOuterContainer}>
